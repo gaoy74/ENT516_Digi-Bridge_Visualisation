@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.81/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.81/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        html,
+        body,
+        #cesiumContainer {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /*    .toolbar-left {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }*/
+
+    .select-list {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+
+    .bridge-info {
+        color: black;
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        width: 225px;
+        height: 275px;
+        background: white;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-shadow: 5px 5px 15px 1px #000000;
+        z-index: 0;
+        opacity: 0.7;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="cesiumContainer" class="fullSize"></div>
+    <select class="select-list" onchange="shift(this.value);">
+        <option value="initialView">initialView</option>
+        <option value="digiBridge">digiBridge</option>
+    </select>
+</body>
+
+<script>
+    // Task 2.2 -- add models into cesium platform
+    // Get your token from https://cesium.com/ion/tokens
+    // And replace the below with your token
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwNmE1ODk2MC0wOTQwLTRhOGEtYmU3NS02NmM5OWQ3OWQwNmMiLCJpZCI6NTQxNTksImlhdCI6MTYxOTU5OTkwNn0.iieFTU3MF9V56bi4xLLaSHkxyNBnlzg2EWOMlOfSkZU';
+    // Cesium.Ion.defaultAccessToken = 'your token';
+   
+    // A simple demo of 3D Tiles feature picking with hover and select behavior
+    // Building data courtesy of NYC OpenData portal: http://www1.nyc.gov/site/doitt/initiatives/3d-building.page
+    var viewer = new Cesium.Viewer("cesiumContainer", {
+        timeline: false,
+        animation: false,
+        navigationHelpButton: false,
+        terrainProvider: Cesium.createWorldTerrain(),
+    });
+
+    viewer.scene.globe.depthTestAgainstTerrain = true;
+
+    var layers = viewer.scene.imageryLayers;
+    var bing_labels = layers.addImageryProvider(new Cesium.IonImageryProvider({assetId: 3}));
+
+    // Set the initial camera view
+    var initialPosition = new Cesium.Cartesian3.fromDegrees(-3.45, 51.52, 150000);
+    var initialOrientation = new Cesium.HeadingPitchRoll.fromDegrees(-0, -90, 0);
+
+    viewer.camera.setView({
+        destination: initialPosition,
+        orientation: initialOrientation,
+        endTransform: Cesium.Matrix4.IDENTITY,
+    });
+
+    // Add Cesium OSM Buildings.
+    const buildingsTileset = viewer.scene.primitives.add(Cesium.createOsmBuildings());
+
+    // Get the asset ID from My Assets in Cesium ion
+    // var assetID = 490071; // Replace the number with your own assetID
+    var assetID = 993985;
+
+    var tileset = new Cesium.Cesium3DTileset({
+        url: Cesium.IonResource.fromAssetId(assetID),
+    });
+    viewer.scene.primitives.add(tileset);
+
+    // Dropdown List
+    var $i = $("<div class='bridge-info'></div>");
+
+    function shift(bridgeID) {
+        if (bridgeID == 'initialView') {
+            viewer.camera.flyTo({
+                destination: initialPosition,
+                orientation: initialOrientation,
+            })
+            $i.empty();
+            $i.remove();
+        } else if (bridgeID == 'digiBridge') {
+            viewer.flyTo(tileset, {
+                duration: 2,
+                offset: new Cesium.HeadingPitchRange(0, -Math.PI / 4, 500),
+            });
+            $i.empty();
+            $i.remove();
+            
+            // Task 2.3 Project Description
+            var div1 = "<div><font size='2'><b>Demo by BIMSE</b></font><br/></div>"
+            var div2 = "<div><font size='2'><b>Bridge: Cardiff Bridge</b></font><br/></div>"
+            var div3 = "<div><font size='2'><b>Location:A4161, Cardiff CF10 1BJ</b></font><br/></div>"
+            var div4 = "<div><font size='2'><b>Maintenance Project: Retrofit</b></font><br/></div>"
+            var div5 = "<div><font size='2'><b>Contract: <a target='_blank' href='./Lab/contract.pdf'>PDF</a></b></font><br/></div>"
+            var div6 = "<div>&nbsp;<img style='position: absolute' src='./cardiffBridge/cardiffBridge.jpg', width='200', height='auto'</div>"
+            
+            $i.append(div1, div2, div3, div4, div5, "<p></p>", div6);
+            $i.css({
+                "left": 5,
+                "top": 30,
+                "z-index": 99999,
+                "position": "absolute",
+            });
+            $(document.body).append($i);
+            console.log($i);
+        }
+    }
+
+    // If the mouse is hovering the assest, the asset becomes red, vice versa.
+    viewer.screenSpaceEventHandler.setInputAction(function onMouseMove(movement) {
+        var pickedFeature = viewer.scene.pick(movement.endPosition);
+        if (Cesium.defined(pickedFeature)) {
+            asset_url = pickedFeature["primitive"]._url;
+            asset_picked_str = asset_url.substring(26, 32);
+            asset_picked = parseInt(asset_picked_str, 10);
+            console.log(asset_picked);
+            if (asset_picked == assetID){
+                tileset.style = new Cesium.Cesium3DTileStyle({
+                    color: "color('red', 0.2)",
+                    show: true
+                })
+            }
+        } else {
+            tileset.style = new Cesium.Cesium3DTileStyle({
+                color: "color('white')",
+                show: true
+            })
+        }
+    },
+    Cesium.ScreenSpaceEventType.MOUSE_MOVE);
+</script>
+
+</html>

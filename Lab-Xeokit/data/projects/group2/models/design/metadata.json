@@ -1,0 +1,592 @@
+{
+  "id": "Project Number",
+  "projectId": "0cBFsrUFT10vzmXg4Gqeui",
+  "author": "",
+  "createdAt": "2022-04-27T08:44:38+00:00",
+  "schema": "IFC2X3",
+  "creatingApplication": "23.0.1.318 - Exporter 23.0.1.318 - Alternate UI 23.0.1.318",
+  "metaObjects": [
+    {
+      "id": "0cBFsrUFT10vzmXg4Gqeui",
+      "name": "Project Number",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "0cBFsrUFT10vzmXg4Gqeuk",
+      "name": "Default",
+      "type": "IfcSite",
+      "parent": "0cBFsrUFT10vzmXg4Gqeui"
+    },
+    {
+      "id": "0cBFsrUFT10vzmXg4Gqeuj",
+      "name": "",
+      "type": "IfcBuilding",
+      "parent": "0cBFsrUFT10vzmXg4Gqeuk"
+    },
+    {
+      "id": "2JF4e6axWHqu3u0C1FZlmi",
+      "name": "Level 1",
+      "type": "IfcBuildingStorey",
+      "parent": "0cBFsrUFT10vzmXg4Gqeuj"
+    },
+    {
+      "id": "3QeJNdltv3yRwc9qam97fO",
+      "name": "flooring plate:flooring plate:363572",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$iy",
+      "name": "cross grider(intermediate):cross grider(intermediate):367392",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$qo",
+      "name": "cross grider(intermediate):cross grider(intermediate):367918",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$qa",
+      "name": "cross grider(intermediate):cross grider(intermediate):367928",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$rS",
+      "name": "cross grider(intermediate):cross grider(intermediate):367936",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$rK",
+      "name": "cross grider(intermediate):cross grider(intermediate):367944",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$rC",
+      "name": "cross grider(intermediate):cross grider(intermediate):367952",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$r4",
+      "name": "cross grider(intermediate):cross grider(intermediate):367960",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$r_",
+      "name": "cross grider(intermediate):cross grider(intermediate):367970",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$rs",
+      "name": "cross grider(intermediate):cross grider(intermediate):367978",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$rk",
+      "name": "cross grider(intermediate):cross grider(intermediate):367986",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$sg",
+      "name": "cross grider(intermediate):cross grider(intermediate):368054",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "1G77a2$j16Ye24TmlMW$sY",
+      "name": "cross grider(intermediate):cross grider(intermediate):368062",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "39jRdpcKH1tPRFjLGYN2wT",
+      "name": "maingrider:maingrider:372388",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "39jRdpcKH1tPRFjLGYN32I",
+      "name": "maingrider:maingrider:372907",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "08ymr9UG12zPwSBLQMsVck",
+      "name": "cross grider(edge):cross grider(edge):373842",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "08ymr9UG12zPwSBLQMsVj4",
+      "name": "cross grider(edge):cross grider(edge):374456",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyF1D",
+      "name": "pier+bearing:pier+bearing:377278",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyF8V",
+      "name": "pier+bearing:pier+bearing:377836",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyFVz",
+      "name": "pier+bearing:pier+bearing:378382",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyFUb",
+      "name": "pier+bearing:pier+bearing:378454",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyFSs",
+      "name": "pier+bearing:pier+bearing:378565",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyFsb",
+      "name": "Rail bearer:Rail bearer:379990",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyFyF",
+      "name": "Rail bearer:Rail bearer:380668",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyFxt",
+      "name": "Rail bearer:Rail bearer:380676",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "0bUxJ4t$r2ihAHUq7kyFx$",
+      "name": "Rail bearer:Rail bearer:380684",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2T3L",
+      "name": "Ballast supporting plate:Ballast supporting plate:382018",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UPQ",
+      "name": "Ballast supporting plate:Ballast supporting plate:385741",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UPC",
+      "name": "Ballast supporting plate:Ballast supporting plate:385755",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UPo",
+      "name": "Ballast supporting plate:Ballast supporting plate:385765",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UPw",
+      "name": "Ballast supporting plate:Ballast supporting plate:385773",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UPY",
+      "name": "Ballast supporting plate:Ballast supporting plate:385781",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UPe",
+      "name": "Ballast supporting plate:Ballast supporting plate:385791",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UUG",
+      "name": "Ballast supporting plate:Ballast supporting plate:385799",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UU4",
+      "name": "Ballast supporting plate:Ballast supporting plate:385811",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UUC",
+      "name": "Ballast supporting plate:Ballast supporting plate:385819",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UUo",
+      "name": "Ballast supporting plate:Ballast supporting plate:385829",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UUw",
+      "name": "Ballast supporting plate:Ballast supporting plate:385837",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USL",
+      "name": "Ballast supporting plate:Ballast supporting plate:385922",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USK",
+      "name": "Ballast supporting plate:Ballast supporting plate:385923",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USJ",
+      "name": "Ballast supporting plate:Ballast supporting plate:385924",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USI",
+      "name": "Ballast supporting plate:Ballast supporting plate:385925",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USH",
+      "name": "Ballast supporting plate:Ballast supporting plate:385926",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USG",
+      "name": "Ballast supporting plate:Ballast supporting plate:385927",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USV",
+      "name": "Ballast supporting plate:Ballast supporting plate:385928",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USU",
+      "name": "Ballast supporting plate:Ballast supporting plate:385929",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2UST",
+      "name": "Ballast supporting plate:Ballast supporting plate:385930",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USS",
+      "name": "Ballast supporting plate:Ballast supporting plate:385931",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USR",
+      "name": "Ballast supporting plate:Ballast supporting plate:385932",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2USQ",
+      "name": "Ballast supporting plate:Ballast supporting plate:385933",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Umx",
+      "name": "ballast plate:ballast plate:387244",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Uuv",
+      "name": "ballast plate:ballast plate:387758",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2V9d",
+      "name": "Stiffener:Stiffener:390896",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vo_",
+      "name": "Stiffener:Stiffener:391209",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2VqJ",
+      "name": "Stiffener:Stiffener:391556",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2VqI",
+      "name": "Stiffener:Stiffener:391557",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2VrV",
+      "name": "Stiffener:Stiffener:391624",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vr5",
+      "name": "Stiffener:Stiffener:391634",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vwy",
+      "name": "Stiffener:Stiffener:391723",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vwa",
+      "name": "Stiffener:Stiffener:391731",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vwg",
+      "name": "Stiffener:Stiffener:391741",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2VxQ",
+      "name": "Stiffener:Stiffener:391757",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vx2",
+      "name": "Stiffener:Stiffener:391765",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2VuC",
+      "name": "Stiffener:Stiffener:391835",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vuo",
+      "name": "Stiffener:Stiffener:391845",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vuw",
+      "name": "Stiffener:Stiffener:391853",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2Vua",
+      "name": "Stiffener:Stiffener:391859",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2SiikqTE9EiQZ$uJZp2VvY",
+      "name": "Ballast supporting plate:Ballast supporting plate:391925",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXJM",
+      "name": "Stiffener:Stiffener:392266",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXJN",
+      "name": "Stiffener:Stiffener:392267",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXQK",
+      "name": "Stiffener:Stiffener:392712",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXQE",
+      "name": "Stiffener:Stiffener:392722",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXQ6",
+      "name": "Stiffener:Stiffener:392730",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXQu",
+      "name": "Stiffener:Stiffener:392740",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXQm",
+      "name": "Stiffener:Stiffener:392748",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXQe",
+      "name": "Stiffener:Stiffener:392756",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXQW",
+      "name": "Stiffener:Stiffener:392764",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXRQ",
+      "name": "Stiffener:Stiffener:392774",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXRI",
+      "name": "Stiffener:Stiffener:392782",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXRA",
+      "name": "Stiffener:Stiffener:392790",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXR2",
+      "name": "Stiffener:Stiffener:392798",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXO6",
+      "name": "Stiffener:Stiffener:392858",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxXO7",
+      "name": "Stiffener:Stiffener:392859",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUjm",
+      "name": "Connecting plate:Connecting plate:394220",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUJw",
+      "name": "Ballast supporting plate:Ballast supporting plate:396390",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUH3",
+      "name": "Connecting plate:Connecting plate:396511",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUNT",
+      "name": "Connecting plate:Connecting plate:396609",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUKD",
+      "name": "Connecting plate:Connecting plate:396689",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUK1",
+      "name": "Connecting plate:Connecting plate:396701",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUKv",
+      "name": "Connecting plate:Connecting plate:396709",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxUKp",
+      "name": "Connecting plate:Connecting plate:396719",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxVl0",
+      "name": "Ballast supporting plate:Ballast supporting plate:398172",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    },
+    {
+      "id": "2U1w9Q2bzEGeCFee9FxVl1",
+      "name": "Ballast supporting plate:Ballast supporting plate:398173",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2JF4e6axWHqu3u0C1FZlmi"
+    }
+  ]
+}

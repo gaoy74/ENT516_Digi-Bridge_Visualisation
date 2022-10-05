@@ -1,0 +1,382 @@
+{
+  "id": "Project Number",
+  "projectId": "208QSd4gX5jhG0xz_8GHs8",
+  "author": "",
+  "createdAt": "2022-04-27T08:34:10+00:00",
+  "schema": "IFC2X3",
+  "creatingApplication": "23.0.1.318 - Exporter 23.0.1.318 - Alternate UI 23.0.1.318",
+  "metaObjects": [
+    {
+      "id": "208QSd4gX5jhG0xz_8GHs8",
+      "name": "Project Number",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "208QSd4gX5jhG0xz_8GHsA",
+      "name": "Default",
+      "type": "IfcSite",
+      "parent": "208QSd4gX5jhG0xz_8GHs8"
+    },
+    {
+      "id": "208QSd4gX5jhG0xz_8GHs9",
+      "name": "",
+      "type": "IfcBuilding",
+      "parent": "208QSd4gX5jhG0xz_8GHsA"
+    },
+    {
+      "id": "1w2kgyXAD2C9c7QsT4npO9",
+      "name": "Level 1",
+      "type": "IfcBuildingStorey",
+      "parent": "208QSd4gX5jhG0xz_8GHs9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Wh",
+      "name": "Structural Framing 5:Structural Framing 5:484541",
+      "type": "IfcBuildingElementProxy",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4XV",
+      "name": "Flat Bars:FL 12x100 2:484553",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4XT",
+      "name": "Flat Bars:FL 12x100:484555",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4X7",
+      "name": "Flat Bars:FL 12x100 2:484561",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4X5",
+      "name": "Flat Bars:FL 12x100:484563",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4X3",
+      "name": "Flat Bars:FL 12x100 2:484565",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4X1",
+      "name": "Flat Bars:FL 12x100:484567",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4XF",
+      "name": "Flat Bars:FL 12x100 2:484569",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4XD",
+      "name": "Flat Bars:FL 12x100:484571",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xt",
+      "name": "Flat Bars:FL 12x100 2:484577",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xr",
+      "name": "Flat Bars:FL 12x100:484579",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4X$",
+      "name": "Flat Bars:FL 12x100 2:484585",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xz",
+      "name": "Flat Bars:FL 12x100:484587",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xx",
+      "name": "Flat Bars:FL 12x100 2:484589",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xv",
+      "name": "Flat Bars:FL 12x100:484591",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xd",
+      "name": "Flat Bars:FL 12x100 2:484593",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xb",
+      "name": "Flat Bars:FL 12x100:484595",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xl",
+      "name": "Flat Bars:FL 12x100 2:484601",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4Xj",
+      "name": "Flat Bars:FL 12x100:484603",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cN",
+      "name": "Flat Bars:FL 12x100 2:484609",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cL",
+      "name": "Flat Bars:FL 12x100:484611",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cJ",
+      "name": "Flat Bars:FL 12x100 2:484613",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cH",
+      "name": "Flat Bars:FL 12x100:484615",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cV",
+      "name": "Flat Bars:FL 12x100 2:484617",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cT",
+      "name": "Flat Bars:FL 12x100:484619",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4c7",
+      "name": "Flat Bars:FL 12x100 2:484625",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4c5",
+      "name": "Flat Bars:FL 12x100:484627",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cF",
+      "name": "Flat Bars:FL 12x100 2:484633",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cD",
+      "name": "Flat Bars:FL 12x100:484635",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cB",
+      "name": "Flat Bars:FL 12x100 2:484637",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4c9",
+      "name": "Flat Bars:FL 12x100:484639",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4ct",
+      "name": "Flat Bars:FL 12x100 2:484641",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cr",
+      "name": "Flat Bars:FL 12x100:484643",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4c$",
+      "name": "Flat Bars:FL 12x100 2:484649",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cz",
+      "name": "Flat Bars:FL 12x100:484651",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cd",
+      "name": "Flat Bars:FL 12x100 2:484657",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cb",
+      "name": "Flat Bars:FL 12x100:484659",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cZ",
+      "name": "Flat Bars:FL 12x100 2:484661",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cX",
+      "name": "Flat Bars:FL 12x100:484663",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cl",
+      "name": "Flat Bars:FL 12x100 2:484665",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4cj",
+      "name": "Flat Bars:FL 12x100:484667",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4e1",
+      "name": "Flat Bars:FL 12x100 2:485015",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4eF",
+      "name": "Flat Bars:FL 12x100:485017",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4fQ",
+      "name": "Flat Bars:FL 12x100 2:485068",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY4fO",
+      "name": "Flat Bars:FL 12x100:485070",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY5W7",
+      "name": "Family11:Family11:488593",
+      "type": "IfcBuildingElementProxy",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY5XR",
+      "name": "Flat Bars:FL 12x100 2:488653",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY5XP",
+      "name": "Family11:Family11:488655",
+      "type": "IfcBuildingElementProxy",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfY5lK",
+      "name": "Concrete Round:300mm:489282",
+      "type": "IfcColumn",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfYAft",
+      "name": "UB-Universal Beams:UB457x152x67:493281",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfYAfr",
+      "name": "UB-Universal Beams:UB457x152x67:493283",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfYAfp",
+      "name": "UB-Universal Beams:UB457x152x67:493285",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfYAfn",
+      "name": "UB-Universal Beams:UB457x152x67:493287",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfYATH",
+      "name": "Flat Bars:FL 12x100 3:494535",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfYA0G",
+      "name": "Flat Bars:FL 12x100 3:494726",
+      "type": "IfcBeam",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "1C97VvjjT0XPJHieXfYA1D",
+      "name": "Concrete Round:300mm:494811",
+      "type": "IfcColumn",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "0iPPJuZPb0FfvxMhzyyDQr",
+      "name": "Concrete Round:300mm:497820",
+      "type": "IfcColumn",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    },
+    {
+      "id": "0iPPJuZPb0FfvxMhzyyDQt",
+      "name": "Concrete Round:300mm:497822",
+      "type": "IfcColumn",
+      "parent": "1w2kgyXAD2C9c7QsT4npO9"
+    }
+  ]
+}

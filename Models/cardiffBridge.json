@@ -1,0 +1,1342 @@
+{
+  "id": "Project Number",
+  "projectId": "2WMkBGv2vE5u5VJqLdtPJO",
+  "author": "",
+  "createdAt": "2017-05-11T12:43:52",
+  "schema": "IFC2X3",
+  "creatingApplication": "20130709_2115(x64) - Exporter 2014.0.2013.0709 - Default UI",
+  "metaObjects": [
+    {
+      "id": "2WMkBGv2vE5u5VJqLdtPJO",
+      "name": "Project Number",
+      "type": "IfcProject",
+      "parent": null
+    },
+    {
+      "id": "2WMkBGv2vE5u5VJqLdtPJQ",
+      "name": "Default",
+      "type": "IfcSite",
+      "parent": "2WMkBGv2vE5u5VJqLdtPJO"
+    },
+    {
+      "id": "2WMkBGv2vE5u5VJqLdtPJP",
+      "name": "",
+      "type": "IfcBuilding",
+      "parent": "2WMkBGv2vE5u5VJqLdtPJQ"
+    },
+    {
+      "id": "2WMkBGv2vE5u5VJqMO8dqr",
+      "name": "Level 01 - B.O. Footing",
+      "type": "IfcBuildingStorey",
+      "parent": "2WMkBGv2vE5u5VJqLdtPJP"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf2Nv9",
+      "name": "M_Abutment_piled_no_slope_TC:M_Abutment_piled_no_slope_TC:191215",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dqr"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf2NvM",
+      "name": "M_Abutment_piled_no_slope_TC:M_Abutment_piled_no_slope_TC:191216",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dqr"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29Mb",
+      "name": "M_Pier_horizontal_cap_rectangle_columns_cf:M_Pier_horizontal_cap_rectangle_columns_cf:196867",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dqr"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29MY",
+      "name": "M_Pier_horizontal_cap_rectangle_columns_cf:M_Pier_horizontal_cap_rectangle_columns_cf:196868",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dqr"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29MZ",
+      "name": "M_Pier_horizontal_cap_rectangle_columns_cf:M_Pier_horizontal_cap_rectangle_columns_cf:196869",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dqr"
+    },
+    {
+      "id": "2WMkBGv2vE5u5VJqMO8dx0",
+      "name": "Level 03 - T.O. Basement Slab",
+      "type": "IfcBuildingStorey",
+      "parent": "2WMkBGv2vE5u5VJqLdtPJP"
+    },
+    {
+      "id": "2TTcRsFH5CXAypJmIYcKPa",
+      "name": "AA-Girder with length shared parameter:Span1-Girder with length shared parameter 2:175202",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2TTcRsFH5CXAypJmIYcKQ$",
+      "name": "AA-Girder with length shared parameter:Span1-Girder with length shared parameter 2:175289",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2TTcRsFH5CXAypJmIYcKSn",
+      "name": "AA-Girder with length shared parameter:Span1-Girder with length shared parameter 2:175415",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2TTcRsFH5CXAypJmIYcKUm",
+      "name": "AA-Girder with length shared parameter:Span1-Girder with length shared parameter 2:175542",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2TTcRsFH5CXAypJmIYcKGT",
+      "name": "AA-Girder with length shared parameter:Span1-Girder with length shared parameter 2:175643",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2TTcRsFH5CXAypJmIYcKIC",
+      "name": "AA-Girder with length shared parameter:Span1-Girder with length shared parameter 2:175754",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29n1",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:198887",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29nE",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:198888",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29nF",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:198889",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29nC",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:198890",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yk",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199560",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yl",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199561",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yi",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199562",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yj",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199563",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yg",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199564",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yh",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199565",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29ye",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199566",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yf",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199567",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29ys",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199568",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yt",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199569",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yq",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199570",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yr",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199571",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yo",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199572",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yp",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199573",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29ym",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199574",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yn",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199575",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y_",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199576",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y$",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199577",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yy",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199578",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yz",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199579",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yw",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199580",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yx",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199581",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yu",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199582",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yv",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199583",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y6",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199584",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y7",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199585",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y4",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199586",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y5",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199587",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y2",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199588",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y3",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199589",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y0",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199590",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y1",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199591",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yE",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199592",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yF",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199593",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yC",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199594",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yD",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199595",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yA",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199596",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yB",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199597",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y8",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199598",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29y9",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199599",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yM",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199600",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yN",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199601",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yK",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199602",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yL",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199603",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yI",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199604",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yJ",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199605",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yG",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199606",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yH",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199607",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yU",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199608",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yV",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199609",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yS",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199610",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yT",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199611",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yQ",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199612",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yR",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199613",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yO",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199614",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29yP",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:199615",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29zc",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199616",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29zd",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199617",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29za",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199618",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "25OSXQ6H50yOSUaplf29zb",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:199619",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfpY",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200509",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfpX",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200510",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfpW",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200511",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoV",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200512",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoU",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200513",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoT",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200514",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoS",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200515",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoR",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200516",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoQ",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200517",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoP",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200518",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoO",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200519",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoN",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200520",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoM",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200521",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoL",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200522",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoK",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200523",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoJ",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200524",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoI",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200525",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoH",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200526",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoG",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200527",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoF",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200528",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoE",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200529",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoD",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200530",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoC",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200531",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoB",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200532",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoA",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200533",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo9",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200534",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo8",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200535",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo7",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200536",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo6",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200537",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo5",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200538",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo4",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200539",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo3",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200540",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo2",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200541",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo1",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200542",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo0",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200543",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo$",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200544",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfo_",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200545",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoz",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200546",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoy",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200547",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfox",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200548",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfow",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200549",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfov",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200550",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfou",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200551",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfot",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200552",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfos",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200553",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfor",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200554",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoq",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200555",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfop",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200556",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoo",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200557",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfon",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200558",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfom",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200559",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfol",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200560",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfok",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200561",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoj",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200562",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoi",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200563",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoh",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200564",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfog",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200565",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfof",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200566",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoe",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200567",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfod",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200568",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoc",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200569",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfob",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200570",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoa",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200571",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoZ",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200572",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoY",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200573",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoX",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200574",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfoW",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200575",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnV",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200576",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnU",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200577",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnT",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200578",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnS",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200579",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnR",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200580",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnQ",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200581",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnP",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200582",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnO",
+      "name": "M_Bearing_rectangle:M_Bearing_rectangle:200583",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnN",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200584",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnM",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200585",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnL",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200586",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnK",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200587",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxfnJ",
+      "name": "M_Bearing_pedestal_square:M_Bearing_pedestal_square:200588",
+      "type": "IfcBuildingElementProxy",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxhoq",
+      "name": "AA-Girder with length shared parameter:Span2-Girder with length shared parameter 2:208747",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxhoo",
+      "name": "AA-Girder with length shared parameter:Span2-Girder with length shared parameter 2:208749",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxhom",
+      "name": "AA-Girder with length shared parameter:Span2-Girder with length shared parameter 2:208751",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxhok",
+      "name": "AA-Girder with length shared parameter:Span2-Girder with length shared parameter 2:208753",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxhoi",
+      "name": "AA-Girder with length shared parameter:Span2-Girder with length shared parameter 2:208755",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxhog",
+      "name": "AA-Girder with length shared parameter:Span2-Girder with length shared parameter 2:208757",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgFL",
+      "name": "AA-Girder with length shared parameter:Span3-Girder with length shared parameter 2:208906",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgFJ",
+      "name": "AA-Girder with length shared parameter:Span3-Girder with length shared parameter 2:208908",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgFH",
+      "name": "AA-Girder with length shared parameter:Span3-Girder with length shared parameter 2:208910",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgFB",
+      "name": "AA-Girder with length shared parameter:Span3-Girder with length shared parameter 2:208916",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgF5",
+      "name": "AA-Girder with length shared parameter:Span4-Girder with length shared parameter 2:208922",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgF3",
+      "name": "AA-Girder with length shared parameter:Span4-Girder with length shared parameter 2:208924",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgF1",
+      "name": "AA-Girder with length shared parameter:Span4-Girder with length shared parameter 2:208926",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgF$",
+      "name": "AA-Girder with length shared parameter:Span4-Girder with length shared parameter 2:208928",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgFz",
+      "name": "AA-Girder with length shared parameter:Span4-Girder with length shared parameter 2:208930",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2OiNbmoxTBTAlUoa3uxgFx",
+      "name": "AA-Girder with length shared parameter:Span4-Girder with length shared parameter 2:208932",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iZbl",
+      "name": "Fascia Girder-Left-length shared parameter:Fascia Girder-Left-length shared parameter:210538",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iZMQ",
+      "name": "Fascia Girder-North-length shared parameter:Fascia Girder-North-length shared parameter:211615",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iZCT",
+      "name": "Fascia Girder-Left-length shared parameter:Fascia Girder-Left-Span2-length shared parameter:211992",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iZEM",
+      "name": "Fascia Girder-Left-length shared parameter:Fascia Girder-Left-Span3-length shared parameter:212115",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iZ84",
+      "name": "Fascia Girder-Left-length shared parameter:Fascia Girder-Left-length shared parameter:212225",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iZBl",
+      "name": "Fascia Girder-North-length shared parameter:Fascia Girder-Span3-North-length shared parameter:212458",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iZ5p",
+      "name": "Fascia Girder-North-length shared parameter:Fascia Girder-North-length shared parameter:212598",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iaqH",
+      "name": "Fascia Girder-North-length shared parameter:Fascia Girder-Span2-North-length shared parameter 2:213524",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iaIl",
+      "name": "AA-Girder with length shared parameter:Span3-Girder with length shared parameter 2:215978",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "3FqkEDPgjA1BbzXm95iaCv",
+      "name": "AA-Girder with length shared parameter:Span3-Girder with length shared parameter 2:216124",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$chT",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225821",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$chb",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225829",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$chj",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225837",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$chr",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225845",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$chz",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225853",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cg5",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225861",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cgD",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225869",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cgL",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225877",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cgT",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225885",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cgb",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225893",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cgj",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225901",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cgr",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225909",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cgz",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225917",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cf5",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225925",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cfD",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225933",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cfL",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225941",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cfT",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225949",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cfb",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225957",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cfj",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225965",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cfr",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225973",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cfz",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225981",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$ce5",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225989",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$ceD",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:225997",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$ceL",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226005",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$ceT",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226013",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$ceb",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226021",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cej",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226029",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cer",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226037",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cez",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226045",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$cl5",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226053",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$clD",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226061",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$clL",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226069",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$clT",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226077",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$clb",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226085",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$clj",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226093",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    },
+    {
+      "id": "2nqL5pBzv1wAFjRHsd$clr",
+      "name": "M_Prestressed Concrete I-Beam Girder:M_Prestressed Concrete I-Beam Girder:226101",
+      "type": "IfcBeam",
+      "parent": "2WMkBGv2vE5u5VJqMO8dx0"
+    }
+  ]
+}
